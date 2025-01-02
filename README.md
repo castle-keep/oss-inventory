@@ -41,6 +41,14 @@ NOTES:
 - Inventory - For HQ admin having an access to Inventory
 - Sales - Possible usage for fulfiller or sales rep creating sales order for dealers
 - Modules: Inventory, Purchases, Sales, Manufacturing, Invoicing, Website, Barcode
+- Odoo.sh 
+  - Need subscription code
+  - Use for on-premise development
+  - Need to setup mail server
+  - Tightly integrated in Github
+  - Daily Backup is enabled (Manual/Auto)
+  - We can use our own db (psql)
+  - Usable if customization is needed, like adding fields or other biz logic
 
 ## 2. InvenTree
 
@@ -62,15 +70,13 @@ InvenTree is designed to be lightweight and user-friendly, particularly for smal
 
 ### Installation Complexity
 Installing InvenTree can be straightforward, especially if you follow the official documentation. Here are the general steps:
-1. **System Requirements**: Ensure your server meets the necessary requirements.
+1. **System Requirements**: Ensure your server meets the necessary requirements. Supported OSs are Debian 11 and Ubuntu 20.04 LTS.
 2. **Download and Install**: Obtain the InvenTree source code and install it on your server.
 3. **Configuration**: Configure the system according to your business needs.
 4. **Customization**: Modify the source code if needed.
 5. **Integration**: Connect with other applications via the API.
 
 For businesses without in-house technical expertise, it might be beneficial to seek help from the community or consultants to ensure a smooth installation and setup process[¹](https://docs.inventree.org/en/latest/features/).
-
-If you have any specific questions or need further details, feel free to ask!
 
 Source:
 - (1) [Features - InvenTree Documentation.](https://docs.inventree.org/en/latest/features/)
@@ -171,7 +177,6 @@ Installing Part-DB can be straightforward if you follow the official documentati
 5. **Integration**: Connect with other applications or systems as required.
 
 For hobbyists without much experience, the recommended installation methods are using Docker or direct installation on Debian[³](https://docs.part-db.de/installation/). This can simplify the process and reduce the need for extensive technical expertise.
-
 
 Source:
 
