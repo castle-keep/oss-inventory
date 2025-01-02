@@ -72,7 +72,7 @@ For businesses without in-house technical expertise, it might be beneficial to s
 
 If you have any specific questions or need further details, feel free to ask!
 
-Source: Conversation with Copilot, 1/2/2025
+Source:
 - (1) [Features - InvenTree Documentation.](https://docs.inventree.org/en/latest/features/)
 - (2) [r/InvenTree on Reddit: Some thoughts, suggestions and critique after ....](https://www.reddit.com/r/InvenTree/comments/17p8bak/some_thoughts_suggestions_and_critique_after_half/)
 
@@ -106,7 +106,7 @@ Installing ERPNext can be straightforward if you follow the official documentati
 For businesses without in-house technical expertise, it might be beneficial to seek help from ERPNext partners or consultants to ensure a smooth installation and setup process[¹](https://www.erp-information.com/erpnext-erp-guide)[²](https://comparecamp.com/erpnext-review-pricing-pros-cons-features/).
 
 
-Source: Conversation with Copilot, 1/2/2025
+Source:
 - (1) [ERPNext Software Review (Modules, Pros & Cons) - ERP Information](https://www.erp-information.com/erpnext-erp-guide).
 - (2) [ERPNext Review: Pricing, Pros, Cons & Features - CompareCamp.com](https://comparecamp.com/erpnext-review-pricing-pros-cons-features/).
 
