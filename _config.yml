@@ -4,5 +4,5 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - oss-list.md
-# theme: jekyll-theme-minimal
+  - README.md
+theme: jekyll-theme-minimal
