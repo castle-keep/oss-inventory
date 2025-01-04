@@ -2,8 +2,8 @@ plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
-  collections: true
+  collections: false
 include:
   - README.md
-  - comparison.md
+  - _my_collection/index.md
 remote_theme: jekyll-theme-minimal
