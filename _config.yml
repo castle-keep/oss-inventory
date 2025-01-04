@@ -6,4 +6,4 @@ relative_links:
 include:
   - README.md
   - comparison.md
-theme: jekyll-theme-minimal
+remote_theme: jekyll-theme-minimal
