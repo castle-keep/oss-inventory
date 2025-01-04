@@ -6,4 +6,4 @@ relative_links:
 include:
   - README.md
   - _my_collection/index.md
-remote_theme: jekyll-theme-minimal
+# remote_theme: jekyll-theme-minimal
