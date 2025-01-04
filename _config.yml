@@ -2,7 +2,7 @@ plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
-  collections: false
+  collections: true
 include:
   - README.md
   - _my_collection/index.md
