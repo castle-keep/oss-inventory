@@ -4,6 +4,11 @@ relative_links:
   enabled: true
   collections: true
 include:
+  - COMPARISION.md
   - README.md
-  - _my_collection/index.md
-# remote_theme: jekyll-theme-minimal
+  - LICENSE.md
+  - INSTALL_UBUNTU_ON_MAC.md
+  # - CODE_OF_CONDUCT.md
+  # - CONTRIBUTING.md
+  # - ISSUE_TEMPLATE.md
+  # - PULL_REQUEST_TEMPLATE.md
