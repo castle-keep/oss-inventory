@@ -1,6 +1,13 @@
 # OSS Inventory List
 
-## 1. Odoo
+<details open>
+<summary>Navigation Links</summary>
+
+### [Go to Comparison Matrix](COMPARISON.md)
+
+</details>
+
+## 1. Odoo (on-premise)
 
 Odoo Inventory OSS is part of the Odoo ERP suite, which is modular and fully integrated. This means it can seamlessly connect with other Odoo modules like accounting, e-commerce, and CRM, providing a comprehensive business management solution[¹](https://transines.com/odoo-erp-for-inventory-management/).
 
@@ -148,38 +155,3 @@ For businesses without in-house technical expertise, it might be beneficial to s
 Source:
 - (1) [Snipe-IT Reviews, Features, Pros & Cons in 2024 - Jobicy](https://jobicy.com/remote-tools/snipe-it).
 - (2) [Snipe-IT Review (2024): Features, Pricing, Support & More - Tech.co](https://tech.co/asset-tracking/snipe-it-review).
-
-## 5. Part-DB
-
-Part-DB is specifically designed for managing electronic components, making it ideal for hobbyists, makerspaces, and small companies that need to keep track of their electronic parts inventory[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-
-### Pros
-- **Specialized for Electronics**: Focuses on electronic components, providing features like datasheet management and project BOM (Bill of Materials) tracking[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-- **User-Friendly Interface**: Accessible via any web browser without the need for additional software[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-- **Customizable**: Open-source nature allows for extensive customization[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-- **Cost-Effective**: Free to use with community support[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-- **Barcode/Label Support**: Generates barcodes and labels for parts and storage locations[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-- **Multi-Language Support**: Available in multiple languages[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-- **Detailed Permissions**: Fine-grained user permissions and two-factor authentication[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-
-### Cons
-- **Limited to Electronic Components**: Primarily focused on electronic parts, may not be suitable for other types of inventory[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-- **Technical Expertise Required**: Customization and setup may require technical knowledge[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-- **Performance**: May not perform as well with very large databases or many users[²](https://docs.part-db.de/installation/choosing_database.html).
-- **No Dedicated Mobile App**: Lacks a dedicated mobile app for on-the-go management[¹](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-
-### Installation Complexity
-Installing Part-DB can be straightforward if you follow the official documentation. Here are the general steps:
-1. **System Requirements**: Ensure your server meets the necessary requirements.
-2. **Download and Install**: Obtain the Part-DB source code and install it on your server.
-3. **Configuration**: Configure the system according to your business needs.
-4. **Customization**: Modify the source code if needed.
-5. **Integration**: Connect with other applications or systems as required.
-
-For hobbyists without much experience, the recommended installation methods are using Docker or direct installation on Debian[³](https://docs.part-db.de/installation/). This can simplify the process and reduce the need for extensive technical expertise.
-
-Source:
-
-- (1) I developed Part-DB: [A free and open source web based inventory](https://www.reddit.com/r/diyelectronics/comments/12ii4na/i_developed_partdb_a_free_and_open_source_web/).
-- (2) Choosing database: [SQLite or MySQL - Part-DB]( https://docs.part-db.de/installation/choosing_database.html).
-- (3) Installation - [Part-DB](https://docs.part-db.de/installation/).

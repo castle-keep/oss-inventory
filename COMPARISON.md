@@ -1,6 +1,9 @@
 ------
-Title: OSS Comparison
+title: OSS Comparison
+
 ------
+
+### Comparison matrix between Odoo (on-prem), Inventree, and ERPNext
 
 | -  | Odoo On-premise | Inventree | ERPNext |
 | -  | --------------- | --------- | ------- |
