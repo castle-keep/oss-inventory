@@ -33,8 +33,6 @@ Installing Odoo Inventory OSS can be straightforward if you follow the official 
 4. **Customization**: Modify the source code if needed.
 5. **Integration**: Connect with other Odoo modules or third-party systems.
 
-For businesses without in-house technical expertise, it might be beneficial to seek help from Odoo partners or consultants to ensure a smooth installation and setup process[¹](https://transines.com/odoo-erp-for-inventory-management/).
-
 Source: 
 
 - (1) [ERP For Inventory Management: Features & Benefits.](https://transines.com/odoo-erp-for-inventory-management/)
@@ -57,39 +55,7 @@ NOTES:
   - We can use our own db (psql)
   - Usable if customization is needed, like adding fields or other biz logic
 
-## 2. InvenTree
-
-InvenTree is designed to be lightweight and user-friendly, particularly for small to medium-sized enterprises (SMEs) and hobbyists. It focuses on providing intuitive parts management and stock control without the bloat often found in other inventory management solutions[¹](https://docs.inventree.org/en/latest/features/).
-
-### Pros
-- **User-Friendly**: Designed to be easy to use, making it accessible for SMEs and hobbyists[¹](https://docs.inventree.org/en/latest/features/).
-- **Customizable**: Highly extensible with a powerful plugin system[¹](https://docs.inventree.org/en/latest/features/).
-- **API Integration**: Offers a RESTful API for integration with other applications[¹](https://docs.inventree.org/en/latest/features/).
-- **Detailed Stock Management**: Provides instant stock knowledge and detailed tracking[¹](https://docs.inventree.org/en/latest/features/).
-- **Community Support**: Being open-source, it benefits from community contributions and support¹(https://docs.inventree.org/en/latest/features/).
-- **Cost-Effective**: Free to use with optional paid services for additional support[¹](https://docs.inventree.org/en/latest/features/).
-
-### Cons
-- **Limited Features for Large Enterprises**: May lack some advanced features required by larger organizations[²](https://www.reddit.com/r/InvenTree/comments/17p8bak/some_thoughts_suggestions_and_critique_after_half/).
-- **Learning Curve**: Some users may find the parts and categories navigation counterintuitive[²](https://www.reddit.com/r/InvenTree/comments/17p8bak/some_thoughts_suggestions_and_critique_after_half/).
-- **Customization Complexity**: While customizable, it may require technical expertise for extensive modifications[²](https://www.reddit.com/r/InvenTree/comments/17p8bak/some_thoughts_suggestions_and_critique_after_half/).
-- **Financial Management**: Current financial management features are limited[²](https://www.reddit.com/r/InvenTree/comments/17p8bak/some_thoughts_suggestions_and_critique_after_half/).
-
-### Installation Complexity
-Installing InvenTree can be straightforward, especially if you follow the official documentation. Here are the general steps:
-1. **System Requirements**: Ensure your server meets the necessary requirements. Supported OSs are Debian 11 and Ubuntu 20.04 LTS.
-2. **Download and Install**: Obtain the InvenTree source code and install it on your server.
-3. **Configuration**: Configure the system according to your business needs.
-4. **Customization**: Modify the source code if needed.
-5. **Integration**: Connect with other applications via the API.
-
-For businesses without in-house technical expertise, it might be beneficial to seek help from the community or consultants to ensure a smooth installation and setup process[¹](https://docs.inventree.org/en/latest/features/).
-
-Source:
-- (1) [Features - InvenTree Documentation.](https://docs.inventree.org/en/latest/features/)
-- (2) [r/InvenTree on Reddit: Some thoughts, suggestions and critique after ....](https://www.reddit.com/r/InvenTree/comments/17p8bak/some_thoughts_suggestions_and_critique_after_half/)
-
-## 3. ERPNext
+## 2. ERPNext
 
 ERPNext is a comprehensive ERP system that integrates various business processes, including inventory management, into a single platform. Unlike some other inventory management systems, ERPNext offers a wide range of modules such as accounting, HR, CRM, and manufacturing, making it a holistic solution for businesses[¹](https://www.erp-information.com/erpnext-erp-guide).
 
@@ -123,35 +89,83 @@ Source:
 - (1) [ERPNext Software Review (Modules, Pros & Cons) - ERP Information](https://www.erp-information.com/erpnext-erp-guide).
 - (2) [ERPNext Review: Pricing, Pros, Cons & Features - CompareCamp.com](https://comparecamp.com/erpnext-review-pricing-pros-cons-features/).
 
-## 4. Snipe-IT
 
-Snipe-IT is specifically designed for IT asset management, focusing on tracking hardware assets, software licenses, consumables, and accessories. It is particularly well-suited for organizations that need to manage IT assets efficiently[¹](https://jobicy.com/remote-tools/snipe-it).
+### ------
+OSS Comparison
+------
 
-### Pros
-- **User-Friendly Interface**: Intuitive and easy to navigate[²](https://tech.co/asset-tracking/snipe-it-review).
-- **Customizable**: Open-source nature allows for extensive customization[¹](https://jobicy.com/remote-tools/snipe-it).
-- **Cost-Effective**: Free to use with optional paid hosting and support plans[²](https://tech.co/asset-tracking/snipe-it-review).
-- **Comprehensive Asset Tracking**: Tracks assets using barcodes and QR codes[²](https://tech.co/asset-tracking/snipe-it-review).
-- **Community Support**: Active community providing regular updates and improvements[¹](https://jobicy.com/remote-tools/snipe-it).
-- **Integration Capabilities**: Integrates with LDAP, Google Auth, and other systems[¹](https://jobicy.com/remote-tools/snipe-it).
-- **Robust Reporting**: Offers detailed reporting and analytics[¹](https://jobicy.com/remote-tools/snipe-it).
+### Comparison matrix between Odoo (on-prem), and ERPNext
 
-### Cons
-- **Limited Features for Non-IT Assets**: Primarily focused on IT assets, may not be suitable for other types of inventory[²](https://tech.co/asset-tracking/snipe-it-review).
-- **Self-Hosting Requirements**: Free plan requires self-hosting, which can be challenging for businesses without technical expertise[²](https://tech.co/asset-tracking/snipe-it-review).
-- **No Dedicated Mobile App**: Lacks a dedicated mobile app for on-the-go management[²](https://tech.co/asset-tracking/snipe-it-review).
-- **Limited Support on Free Plan**: Free users do not get access to customer support or advanced security features[²](https://tech.co/asset-tracking/snipe-it-review).
+| -  | Odoo On-premise |  ERPNext |
+| -  | --------------- |  ------- |
+| Has API |  ✓ |   ✓ |
+| Supported Barcodes | EAN (European Article Number), UPC (Universal Product Code), Code-39, Code-93, Code-128, Codabar, ITF | UPC, EAN, Code-39, Code-93, Code-128, ITF, Codabar |
+| Batch product upload | ✓ | ✓ | ✓ |
+| Multiple users | ✓ | ✓ | ✓ |
+| **Minimum System Requirements** |
+| VM Size | **Small (up to 5 users):** <br>Standard B2s (2 vCPUs, 4 GB RAM). $30/month <br><br> **Medium (up to 20 users):** <br>Standard D4s v3 (4 vCPUs, 16 GB RAM). $140/month <br><br> **Large (90+ users):** Standard D8s v3 (8 vCPUs, 32 GB RAM) or larger. $280/month | Same | Same |
+| Storage | **OS Disk:** <br> Standard SSD (64 GB or more). <br><br> **Data Disk:** <br> Premium SSD (size depending on your database and backup needs, typically starting at 100 GB). |
+| **Additional Recommendations** |
+| Database | Use Azure Database for PostgreSQL for managed database services. | Primary uses PostgeSQL and can use SQLite for testing and development purposes. | Primarily uses MariaDB but PostgreSQL is also recommended. |
+| Backup | Implement Azure Backup for regular backups of your VM and database.
+|  Monitoring | Use Azure Monitor to keep track of your VM’s performance and health. |
+|
 
-### Installation Complexity
-Installing Snipe-IT can be straightforward if you follow the official documentation. Here are the general steps:
-1. **System Requirements**: Ensure your server meets the necessary requirements.
-2. **Download and Install**: Obtain the Snipe-IT source code and install it on your server.
-3. **Configuration**: Configure the system according to your business needs.
-4. **Customization**: Modify the source code if needed.
-5. **Integration**: Connect with other applications or systems as required.
 
-For businesses without in-house technical expertise, it might be beneficial to seek help from the community or consider the paid hosting plans offered by Snipe-IT[²](https://tech.co/asset-tracking/snipe-it-review).
+### Odoo On Premise Features
+1. ***Storage Locations:***
+  Create and manage specific storage locations like shelves, aisles, cold storage rooms, and pallet racks.
 
-Source:
-- (1) [Snipe-IT Reviews, Features, Pros & Cons in 2024 - Jobicy](https://jobicy.com/remote-tools/snipe-it).
-- (2) [Snipe-IT Review (2024): Features, Pricing, Support & More - Tech.co](https://tech.co/asset-tracking/snipe-it-review).
+2. ***Putaway Rules:***
+  Automatically route products to ideal storage locations based on real-time capacity, product storage needs, and picking accessibility.
+3. ***Operations:***
+  Create dedicated locations for receiving products, sorting, packing, and other warehouse operations.
+4. ***Smart Removal:***
+  Choose product removal strategies (FIFO, FEFO, nearest available zone, LEFO) and streamline picker paths with the right picking method (single, batch, cluster, wave).
+5. ***Role-based To-Do List:***
+  Dedicated dashboards to keep order fulfillment, purchasing, quality, picking, packing, and receiving teams on top of their daily tasks.
+6. ***Receipts:***
+  Manage incoming shipments with vendor-provided arrival dates and automatic unit of measure conversion for received quantities.
+7. ***Returns:***
+  Set predefined routes for return condition assessment, refurbishing, restocking, or disposal.
+8. ***Pick and Pack:***
+  Create smart automatic batches based on shipping carriers, serial numbers, specific quantities, and total weight for picker convenience.
+  Assign barcodes to sealed packages for content tracking.
+9. ***Scrap Management:***
+  Scrap products in just a few clicks and get clear reports on scrap costs, reasons, and volumes.
+10. ***Inventory Adjustments:***
+  Schedule recurring stock counts on vital storage locations, products, or lots to keep inventory up to date.
+11. ***Multi-Warehouse Management:***
+  Manage all storage, stock, and replenishments for all your warehouses.
+12. ***Barcode Integration:***
+  Streamline warehouse operations using a barcode scanner for receipts, pickings, and inventory adjustments.
+13. ***Customer Portal:***
+Live web page where customers can track the status of their order, payment, and delivery.
+
+
+### ERPNext Features
+
+1. ***Stock Ledger and Valuation:***
+  Provides a detailed record of all inventory transactions, including purchases, sales, transfers, and adjustments.
+2. ***Batch and Serial Number Tracking:***
+  Allows precise tracking of items using batch numbers and serial numbers, which is essential for quality control and regulatory compliance.
+3. ***Multi-Unit of Measure (UOM):***
+  Supports multiple units of measure for inventory items, making it easier to manage products sold in different quantities.
+4. ***Automated Replenishment:***
+  Automatically generates material requests to replenish stock when inventory levels fall below a predefined threshold.
+5. ***Bin Management:***
+  Helps organize inventory within warehouses by assigning specific bins to items, improving storage efficiency.
+6. ***Material Requests and Transfers:***
+  Facilitates the creation of material requests and internal transfers between warehouses.
+7. ***Warehouse Configuration:***
+  Allows setting up multiple warehouses with specific rules and configurations, suitable for businesses operating across various locations.
+8. ***Item Variants:***
+  Enables the creation of item variants based on attributes like size, color, and weight, simplifying inventory management.
+9. ***Quality Inspections:***
+  Implements quality inspections to ensure that the correct stock enters or leaves warehouses.
+10. ***Stock Aging:***
+  Provides insights into the age of inventory, which is crucial for managing perishable items.
+11. ***Real-time Inventory Visibility:***
+  Offers real-time visibility into inventory levels, movements, and costs, aiding in informed decision-making.
+12. ***Advanced Inventory Control:***
+  Supports advanced inventory control techniques, including reorder levels, lead times, and safety stock levels.
