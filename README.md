@@ -1,11 +1,9 @@
 # OSS Inventory List
-
-<details open>
-<summary>Navigation Links</summary>
-
-### [Go to Comparison Matrix](COMPARISON.md)
-
-</details>
+- Odoo (on-premise)
+- ERPNext
+- OSS Comparison
+- Odoo Features
+- ERPNext Features
 
 ## 1. Odoo (on-premise)
 
@@ -112,7 +110,7 @@ OSS Comparison
 |
 
 
-### Odoo On Premise Features
+### Odoo Features
 1. ***Storage Locations:***
   Create and manage specific storage locations like shelves, aisles, cold storage rooms, and pallet racks.
 
