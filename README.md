@@ -1,11 +1,11 @@
 # OSS Inventory List
-- Odoo (on-premise)
-- ERPNext
-- OSS Comparison
-- Odoo Features
-- ERPNext Features
+- [Odoo (on-premise)](#1-odoo-on-premise)
+- [ERPNext](#erpnext)
+- [OSS Comparison](#oss-comparison)
+- [Odoo Features](#odoo-features)
+- [ERPNext Features](#erpnext-features)
 
-## 1. Odoo (on-premise)
+## Odoo (on-premise)
 
 Odoo Inventory OSS is part of the Odoo ERP suite, which is modular and fully integrated. This means it can seamlessly connect with other Odoo modules like accounting, e-commerce, and CRM, providing a comprehensive business management solution[¹](https://transines.com/odoo-erp-for-inventory-management/).
 
@@ -53,7 +53,7 @@ NOTES:
   - We can use our own db (psql)
   - Usable if customization is needed, like adding fields or other biz logic
 
-## 2. ERPNext
+## ERPNext
 
 ERPNext is a comprehensive ERP system that integrates various business processes, including inventory management, into a single platform. Unlike some other inventory management systems, ERPNext offers a wide range of modules such as accounting, HR, CRM, and manufacturing, making it a holistic solution for businesses[¹](https://www.erp-information.com/erpnext-erp-guide).
 
