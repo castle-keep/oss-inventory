@@ -2,7 +2,7 @@
 - [Odoo (on-premise)](#1-odoo-on-premise)
 - [ERPNext](#erpnext)
 - [OSS Comparison](#oss-comparison)
-- [Odoo Features](#odoo-features)
+- [Odoo Features](#odoo-inventory-module-features)
 - [ERPNext Features](#erpnext-features)
 
 ## Odoo (on-premise)
@@ -96,7 +96,8 @@ OSS Comparison
 
 | -  | Odoo On-premise |  ERPNext |
 | -  | --------------- |  ------- |
-| Has API |  ✓ |   ✓ |
+| Rest API Support |  ✓ |   ✓ |
+| User experience
 | Supported Barcodes | EAN (European Article Number), UPC (Universal Product Code), Code-39, Code-93, Code-128, Codabar, ITF | UPC, EAN, Code-39, Code-93, Code-128, ITF, Codabar |
 | Batch product upload | ✓ | ✓ |
 | Multiple users | ✓ | ✓ |
@@ -110,7 +111,7 @@ OSS Comparison
 |
 
 
-### Odoo Features
+### Odoo Inventory Module Features
 1. ***Storage Locations:***
   Create and manage specific storage locations like shelves, aisles, cold storage rooms, and pallet racks.
 
@@ -140,6 +141,12 @@ OSS Comparison
 13. ***Customer Portal:***
 Live web page where customers can track the status of their order, payment, and delivery.
 
+### Odoo Inventory Screenshots
+![Inventory Overview](image-11.png)
+![Receive Items](image-12.png)
+![alt text](image-13.png)
+![Delivery List](image-14.png)
+![Delivery Details](image-15.png)
 
 ### ERPNext Features
 
@@ -167,3 +174,9 @@ Live web page where customers can track the status of their order, payment, and 
   Offers real-time visibility into inventory levels, movements, and costs, aiding in informed decision-making.
 12. ***Advanced Inventory Control:***
   Supports advanced inventory control techniques, including reorder levels, lead times, and safety stock levels.
+
+
+### ERPNext Screenshots
+![Stock Dashboard](image-16.png)
+![Stock Items](image-17.png)
+![Purchase Request](image-18.png)
